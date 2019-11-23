@@ -1,0 +1,28 @@
+.title-slash {
+    display: inline-block;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    bottom: -10px;
+    left: -40px;
+    background-color: $color-blue;
+    border-radius: 2px;
+}
+
+.title {
+    position: relative;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    &_facebook {
+        background-image: url('src/img/facebook-icon.svg');
+    }
+
+    &_twitter {
+        background-image: url('src/img/twitter-icon.svg');
+    }
+}

@@ -1,0 +1,39 @@
+.headline {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+
+    &__background {
+        position: absolute;
+        background-image: url('src/img/main-bg-big.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        filter: brightness(0.5);
+    }
+
+    &__content {
+        position: relative;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 1;
+        color: white;
+        max-width: 900px;
+    }
+
+    &__content-background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient();
+        filter: blur(0.8);
+    }
+
+    &__application-btn {
+        margin: auto;
+    }
+}

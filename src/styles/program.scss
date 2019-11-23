@@ -1,0 +1,29 @@
+.program {
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 64px;
+
+  &__content {
+    max-width: 900px;
+    padding: 16px;
+    margin: auto;
+  }
+
+  &__blocks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+}
+
+
+$line-radius: 16px;
+
+.topics-list {
+  list-style-type: none;
+  padding-left: 16px;
+
+  &__item {
+    line-height: 32px;
+  }
+}

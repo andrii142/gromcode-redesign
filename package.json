@@ -1,0 +1,15 @@
+{
+  "name": "gromcode-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "styles": "sass src/styles/index.scss styles.css",
+    "styles:watch": "npm run styles -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.23.7"
+  }
+}

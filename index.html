@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="navbar-fixed">
+            <nav class="header indigo darken-4">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Gromcode</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="active"><a href="#advantages">Почему мы</a></li>
+                        <li><a href="#">Цифры</a></li>
+                        <li><a href="#program">Программа</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="headline">
+                <div class="headline__background"></div>
+                <div class="headline__content">
+                    <div class="headline__content-background"></div>
+                    <h1>Курс Front End программист</h1>
+                    <p class="flow-text">Изучение HTML, CSS, JavaScript, React и многое другое, с оплатой после
+                        трудоустройства</p>
+                    <p class="flow-text">Оставьте заявку прямо сейчас и получите 2 бесплатных онлайн урока</p>
+                    <button class="headline__application-btn btn waves-effect waves-light btn-large"
+                        data-target="application-form">
+                        Оставить заявку
+                    </button>
+                    <span></span>
+                </div>
+            </section>
+            <section id="advantages" class="advantages">
+                <h4 class="title">
+                    5 основных преимуществ c другими школами
+                    <span class="title-slash"></span>
+                </h4>
+                <ol class="advantages-list">
+                    <li class="advantages-list__item">
+                        <h5>Обучение на результат - трудоустройство</h5>
+                        <p>У нас такой же интерес как у студентов - трудоустройство. Иначе нам это карйне не выгодно
+                            финансово</p>
+                    </li>
+                    <li class="advantages-list__item">
+                        <h5>Уникальный формат оплаты</h5>
+                        <p>Вы сами выбираете формат оплаты - оплачивать после трудоустройства или помесячо сразу</p>
+                    </li>
+                    <li class="advantages-list__item">
+                        <h5>Много приближенной к жизни практики, реальные проекты</h5>
+                        <p>Ты научишься программировать на 300+ реальных задачах и 5 проектах с личным ментором за
+                            спиной.</p>
+                    </li>
+                    <li class="advantages-list__item">
+                        <h5>Менторство</h5>
+                        <p>Мы работаем в небольших группах (6-7 студентов), поэтому каждому уделяем много внимания,
+                            one-to-one менторство ускорит ваш рост в разы</p>
+                    </li>
+                    <li class="advantages-list__item">
+                        <h5>Нетворкинг и мероприятия</h5>
+                        <p>Каждый участник и выпускник входит в наш закрытый клуб где мы проводим различные нетворкинги,
+                            хакатоны и встречи в кругу единомышленников.</p>
+                    </li>
+                </ol>
+            </section>
+            <section id="program" class="program blue lighten-5">
+                <div class="program__content ">
+                    <h4 class="title">
+                        Программа обучения & стек технологий
+                        <span class="title-slash"></span>
+                    </h4>
+                    <div class="row program__blocks">
+                        <div class="card-panel col l5 s12 z-depth-2">
+                            <h5>Технологии</h5>
+                            <ul class="topics-list">
+                                <li class="topics-list__item">HTML5</li>
+                                <li class="topics-list__item">CSS3</li>
+                                <li class="topics-list__item">SASS</li>
+                                <li class="topics-list__item">JavaScript, modern Javascript</li>
+                                <li class="topics-list__item">Юнит тесты в Javascript</li>
+                                <li class="topics-list__item">Библиотеки Bootstrap, JQuery</li>
+                                <li class="topics-list__item">Основы REST API, JSON формат</li>
+                                <li class="topics-list__item">React (latest version)</li>
+                            </ul>
+                        </div>
+                        <div class="card-panel col l5 s12">
+                            <h5>Инструменты</h5>
+                            <ul class="topics-list">
+                                <li class="topics-list__item">Github</li>
+                                <li class="topics-list__item">Основы работы в командной строке</li>
+                                <li class="topics-list__item">Chrome Development tools</li>
+                                <li class="topics-list__item">npm, yarn</li>
+                                <li class="topics-list__item">Gulp, Webpack</li>
+                                <li class="topics-list__item">Adobe Photoshop, Figma/Invision</li>
+                                <li class="topics-list__item">VSCode</li>
+                                <li class="topics-list__item">JIRA/Trello</li>
+                                <li class="topics-list__item">Подготовка к собеседованию, разбираем 100+ типовых вопросов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="application">
+                <form class="application-form application__form">
+                    <input type="email" class="application-form__field">
+                    <input type="phone" class="application-form__field">
+                    <button type="submit">Отправить заявку</button>
+                    <span>предложение ограничено - осталось 4 места*</span>
+                </form>
+            </section> -->
+        </main>
+        <footer class="page-footer indigo darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l3 s12">
+                        <a href="#" class="brand-logo">
+                            <h5>Gromcode</h5>
+                        </a>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Курсы</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Java</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Front-End</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Контакты</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="tel:+38063 500 50 50">+38063 500 50 50</a>
+                            </li>
+                            <li><a class="grey-text text-lighten-3" href="tel:+38063 500 50 50">+38063 500 50 50</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col l3 s12">
+                        <h5 class="white-text">Мы в Соц сетях</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#"><i class="icon icon_facebook"></i></a>
+                            <li><a class="grey-text text-lighten-3" href="#"><i class="icon icon_twitter"></i></a>
+                            </li>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <div class="col l3 s12">
+                        <button class="btn waves-effect waves-light btn-large" data-target="application-form">
+                            Обратный звонок
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container center-align">
+                    © 2019 Copyright Text
+                </div>
+            </div>
+        </footer>
+        <div id="application-form" class="modal">
+            <div class="modal-content">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Send</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./src/scripts/index.js"></script>
+</body>
+
+</html>
